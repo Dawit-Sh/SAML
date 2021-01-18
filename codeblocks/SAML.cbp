@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SAML" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="../bin/SAML" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="../src/Algorithms.cpp" />
+		<Unit filename="../src/Algorithms.h" />
+		<Unit filename="../src/Entry.cpp" />
+		<Unit filename="../src/Lexer.cpp" />
+		<Unit filename="../src/Lexer.h" />
+		<Unit filename="../src/Parser.cpp" />
+		<Unit filename="../src/Parser.h" />
+		<Unit filename="../src/Runtime.cpp" />
+		<Unit filename="../src/Runtime.h" />
+		<Unit filename="../src/SAML.h" />
+		<Unit filename="../src/Stack.cpp" />
+		<Unit filename="../src/Stack.h" />
+		<Unit filename="../src/Test.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
